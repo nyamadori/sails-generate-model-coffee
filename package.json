@@ -1,0 +1,34 @@
+{
+  "name": "sails-generate-model-coffee",
+  "version": "0.10.9",
+  "description": "Generate a model.coffee for a Sails app.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "model",
+    "generator",
+    "sails",
+    "generate",
+    "plugin",
+    "coffee-script"
+  ],
+  "author": "nyamadori",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": ">=2.4.x",
+    "merge-defaults": ">=0.1.0",
+    "underscore.string": "~2.3.3"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "model",
+    "behavior": "overrides `sails generate model`",
+    "sailsVersion": "~0.10.0"
+  }
+}
