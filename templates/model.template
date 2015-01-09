@@ -8,7 +8,7 @@
 module.exports =
 <%if (attributes.length > 0){%>
   attributes:
-    <%= attributes %>
+<%= attributes %>
 <%} else{ %>
   attributes: {}
 <%}%>
